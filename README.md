@@ -121,3 +121,4 @@ Shengkui Zhao, Trung Hieu Nguyen, Bin Ma
 [[arXiv]](https://arxiv.org/pdf/2102.01993v1.pdf)   
 **Other**   
 https://github.com/seorim0/DNN-based-Speech-Enhancement-in-the-frequency-domain
+https://git.its.aau.dk/ZQ62WN/Speech_Enhancement_Loss
