@@ -3,3 +3,4 @@ logs/
 models/
 *.npy
 log_generate_data_*.txt
+__pycache__/
