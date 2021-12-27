@@ -1,6 +1,7 @@
 # Speechless
 2021-2 Speech Enhancement Project   
-Seon-Jun Kim, 
+   
+Seon-Jun Kim, Hee-Young Ahn, Ji-Hoon Choi,     
 Supervised and helped by C-J Lee, S-R Hwang, and H-U Yoon
 
 ## Requirements
@@ -20,7 +21,7 @@ Getting Started
 # The shape of the dataset
 [data_num, 2 (inputs and targets), sampling_frequency * data_length]
 ```
-3. Set dataloader.py
+3. Set [dataloader.py](https://github.com/Neurumaru/Speechless/blob/main/dataloader.py)
 ```sh
 input = np.load('DATASET_FILE(NUMPY)')
 
@@ -28,7 +29,7 @@ input = np.load('DATASET_FILE(NUMPY)')
 input = np.load('train.npy')
 ```
 
-4. Set config.py
+4. Set [config.py](https://github.com/Neurumaru/Speechless/blob/main/config.py)
 ```sh
 #######################################################################
 #                           current setting                           #
@@ -57,12 +58,12 @@ fft_len = 1023
 n_freqs = fft_len // 2 + 1
 ```
 
-5. Make model at model.py
+5. Make model at [models.py](https://github.com/Neurumaru/Speechless/blob/main/models.py)
 ```sh
 # If you need to another layer, add at tools_for_model.py
 ```
 
-6. Run train_interface.py
+6. Run [train_interface.py](https://github.com/Neurumaru/Speechless/blob/main/train_interface.py)
 ```sh
 ###############################################################################
 #                                    Train                                    #
@@ -81,7 +82,7 @@ model.fit(X_train, y_train,
 
 model.save_weights(cfg.job_dir + '/ckpt')
 ```
-7. Edit weights file and run test_interface.py for testing
+7. Edit weights file and run [test_interface.py](https://github.com/Neurumaru/Speechless/blob/main/test_interface.py) for testing
 ```sh
 ###############################################################################
 #                                     Test                                    #
@@ -93,7 +94,7 @@ print(f'pesq mean:{np.nanmean(pesq_score)}')
 ```
 
 ## Run with colab
-'train_interface.ipynb' was made for running at colab.
+'[train_interface.ipynb](https://github.com/Neurumaru/Speechless/blob/main/train_interface.ipynb)' was made for running at colab.
 
 ## Model
 CNN + LSTM + Attention Model
