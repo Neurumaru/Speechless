@@ -1,7 +1,7 @@
 # Speechless
 2021-2 Speech Enhancement Project   
    
-Seon-Jun Kim, Hee-Young Ahn, Ji-Hoon Choi,     
+Seon-Jun Kim, Hee-Young Ahn, Ji-Hoon Choi, Su-Hwan Myeong    
 Supervised and helped by C-J Lee, S-R Hwang, and H-U Yoon
 
 ## Requirements
