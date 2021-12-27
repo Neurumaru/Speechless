@@ -103,7 +103,7 @@ def load_wav_data(path):
 
 
 data = load_wav_data('train')
-train, test = train_test_split(data, test_size=100)
+train, test = train_test_split(data, test_size=500)
 
 print('data shape: ' + str(data.shape))
 print('train shape: ' + str(train.shape))
@@ -111,5 +111,5 @@ print('test shape: ' + str(test.shape))
 
 print('Saving Numpy Data...', end='')
 np.save('train', train)
-np.save('test', test)
+np.save('valid', test)
 print('\rSaved Numpy Data    ')

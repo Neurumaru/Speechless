@@ -106,7 +106,7 @@ model.compile(loss=cfg.loss,
 ###############################################################################
 #                                    Train                                    #
 ###############################################################################
-model.load_weights('checkpoint-011.ckpt')
+# model.load_weights('checkpoint-011.ckpt')
 
 model.fit(X_train, y_train,
           epochs=cfg.max_epochs,
