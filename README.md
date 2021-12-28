@@ -1,5 +1,5 @@
 # Speechless
-2021-2 Speech Enhancement Project   
+2021-2 Yonsei Speech Enhancement Challenge   
    
 Member: Seon-Jun Kim, Hee-Young Ahn, Ji-Hoon Choi, Su-Hwan Myeong    
    
