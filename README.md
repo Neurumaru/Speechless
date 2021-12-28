@@ -156,6 +156,9 @@ print(f'pesq mean:{np.nanmean(pesq_score)}')
 CNN + LSTM + Attention Model
 (Not full attention connect)
 
+* Not Complex Convolution
+* Real and imag pass each branch and merge before inverse stft
+
 ## Layer
 - STFT
 - Inverse STFT
